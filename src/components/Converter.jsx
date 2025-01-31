@@ -66,9 +66,9 @@ function Converter() {
                 <img
                   src={selected.Flag}
                   alt={selected.CountryName}
-                  className="w-6 h-4 object-cover"
+                  className="w-6 h-4 object-cover cursor-pointer"
                 />
-                <span>{selected.Code}</span>
+                <span className="cursor-pointer">{selected.Code}</span>
               </>
             )}
           </button>
